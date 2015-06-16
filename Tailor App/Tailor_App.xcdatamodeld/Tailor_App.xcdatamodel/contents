@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14A389" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DressDivisionsList" representedClassName="DressDivisionsList" syncable="YES">
+        <attribute name="divisionId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="divisionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="divisionParentID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="DressDivisionTypes" syncable="YES">
+        <attribute name="divisionId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="typeID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="typeName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DressList" representedClassName="DressList" syncable="YES">
+        <attribute name="dressID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="dressName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DressList" positionX="-54" positionY="-9" width="128" height="73"/>
+        <element name="DressDivisionsList" positionX="-308" positionY="-9" width="128" height="88"/>
+        <element name="DressDivisionTypes" positionX="-504" positionY="-0" width="128" height="88"/>
+    </elements>
+</model>

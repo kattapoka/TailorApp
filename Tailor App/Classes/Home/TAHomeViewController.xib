@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7703" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TAHomeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MA1n Bacground" translatesAutoresizingMaskIntoConstraints="NO" id="GYD-mK-gZz">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g08-nr-R2K">
+                    <rect key="frame" x="65" y="370" width="186" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="177" id="Da3-cc-xAI"/>
+                        <constraint firstAttribute="width" constant="186" id="OM4-fp-VHJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                    <inset key="titleEdgeInsets" minX="-63" minY="0.0" maxX="0.0" maxY="7"/>
+                    <inset key="imageEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="35"/>
+                    <state key="normal" title="Suits" image="Sutes">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.066666666669999999" green="0.4941176471" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="SutesSelected">
+                        <color key="titleColor" red="0.015686274509803921" green="0.59999999999999998" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onSuitBtnPressed:" destination="-1" eventType="touchUpInside" id="69g-H0-kLT"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ma1n Logo" translatesAutoresizingMaskIntoConstraints="NO" id="fqg-Qh-KFP">
+                    <rect key="frame" x="413" y="75" width="198" height="223"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoP-uA-CrD">
+                    <rect key="frame" x="301" y="370" width="186" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="186" id="eOp-je-6gp"/>
+                        <constraint firstAttribute="height" constant="177" id="rCf-82-9k9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                    <inset key="titleEdgeInsets" minX="-67" minY="0.0" maxX="0.0" maxY="7"/>
+                    <inset key="imageEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="35"/>
+                    <state key="normal" title="Shirts" image="Shrts">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.066666666669999999" green="0.4941176471" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="ShrtsSelected">
+                        <color key="titleColor" red="0.015686274509803921" green="0.59999999999999998" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onShirtBtnPressed:" destination="-1" eventType="touchUpInside" id="i5V-xP-svU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HW-Bi-IYA">
+                    <rect key="frame" x="773" y="370" width="186" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="186" id="4UF-pV-3nt"/>
+                        <constraint firstAttribute="height" constant="177" id="mLa-GT-MYE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                    <inset key="titleEdgeInsets" minX="-66" minY="0.0" maxX="0.0" maxY="7"/>
+                    <inset key="imageEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="35"/>
+                    <state key="normal" title="Pants" image="Pants">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.066666666669999999" green="0.4941176471" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="PantsSelected">
+                        <color key="titleColor" red="0.015686274510000001" green="0.59999999999999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onPantsBtnPressed:" destination="-1" eventType="touchUpInside" id="17Q-xK-l6d"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKr-zO-KHx">
+                    <rect key="frame" x="301" y="575" width="186" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="177" id="oqi-B2-fhG"/>
+                        <constraint firstAttribute="width" constant="186" id="qvf-we-j97"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                    <inset key="titleEdgeInsets" minX="-84" minY="0.0" maxX="0.0" maxY="7"/>
+                    <inset key="imageEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="35"/>
+                    <state key="normal" title="Polo Shirts" image="Polo shrts">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.066666666669999999" green="0.4941176471" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="Polo shrtsSelected">
+                        <color key="titleColor" red="0.015686274510000001" green="0.59999999999999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onPoloShirtsBtnPressed:" destination="-1" eventType="touchUpInside" id="oV1-ae-7xj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLc-To-NaO">
+                    <rect key="frame" x="537" y="575" width="186" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="186" id="85R-Cc-PUg"/>
+                        <constraint firstAttribute="height" constant="177" id="Iam-HQ-m19"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                    <inset key="titleEdgeInsets" minX="-92" minY="0.0" maxX="0.0" maxY="7"/>
+                    <inset key="imageEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="35"/>
+                    <state key="normal" title="Trench Coats" image="TrenchCoat">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.066666666669999999" green="0.4941176471" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="TrenchCoatSelected">
+                        <color key="titleColor" red="0.015686274510000001" green="0.59999999999999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onTrenchCoatBtnPressed:" destination="-1" eventType="touchUpInside" id="d4v-xf-eF8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeZ-6A-gzX">
+                    <rect key="frame" x="773" y="575" width="186" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="177" id="4ct-zD-dnX"/>
+                        <constraint firstAttribute="width" constant="186" id="JFA-jm-gN4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                    <inset key="titleEdgeInsets" minX="-83" minY="0.0" maxX="0.0" maxY="7"/>
+                    <inset key="imageEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="35"/>
+                    <state key="normal" title="Outerwear" image="Outerwear">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.066666666669999999" green="0.4941176471" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="OuterwearSelected">
+                        <color key="titleColor" red="0.015686274510000001" green="0.59999999999999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onOuterwearBtnPressed:" destination="-1" eventType="touchUpInside" id="Nbx-YK-6dF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsS-SU-Q6i">
+                    <rect key="frame" x="65" y="575" width="186" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="186" id="ezT-k3-USP"/>
+                        <constraint firstAttribute="height" constant="177" id="qTP-Vd-YSl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                    <inset key="titleEdgeInsets" minX="-84" minY="0.0" maxX="0.0" maxY="7"/>
+                    <inset key="imageEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="35"/>
+                    <state key="normal" title="Waistcoats" image="WastCoat">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.066666666669999999" green="0.4941176471" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="WastCoatSelected">
+                        <color key="titleColor" red="0.015686274510000001" green="0.59999999999999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onWaistcoatBtnPressed:" destination="-1" eventType="touchUpInside" id="y93-nw-CqG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdu-Us-SQV">
+                    <rect key="frame" x="537" y="370" width="186" height="177"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="186" id="pAF-O9-eg0"/>
+                        <constraint firstAttribute="height" constant="177" id="wyG-v7-EWv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                    <inset key="titleEdgeInsets" minX="-71" minY="0.0" maxX="0.0" maxY="7"/>
+                    <inset key="imageEdgeInsets" minX="25" minY="0.0" maxX="0.0" maxY="35"/>
+                    <state key="normal" title="Blazers" image="Blazer">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected">
+                        <color key="titleColor" red="0.066666666669999999" green="0.4941176471" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" image="BlazerSelected">
+                        <color key="titleColor" red="0.015686274510000001" green="0.59999999999999998" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="onBlazerBtnPressed:" destination="-1" eventType="touchUpInside" id="wCD-DJ-iy4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GYD-mK-gZz" secondAttribute="bottom" id="5gk-GZ-e2j"/>
+                <constraint firstItem="yeZ-6A-gzX" firstAttribute="leading" secondItem="fLc-To-NaO" secondAttribute="trailing" constant="50" id="6Ig-uS-ByP"/>
+                <constraint firstItem="7HW-Bi-IYA" firstAttribute="leading" secondItem="hdu-Us-SQV" secondAttribute="trailing" constant="50" id="BMp-wp-tpc"/>
+                <constraint firstItem="fqg-Qh-KFP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="75" id="HRR-Pr-VNc"/>
+                <constraint firstAttribute="trailing" secondItem="fqg-Qh-KFP" secondAttribute="trailing" constant="413" id="I6e-qb-eYF"/>
+                <constraint firstItem="g08-nr-R2K" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="65" id="OD2-0g-d7Z"/>
+                <constraint firstItem="g08-nr-R2K" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="370" id="S1D-Xf-Kid"/>
+                <constraint firstAttribute="trailing" secondItem="GYD-mK-gZz" secondAttribute="trailing" id="TgX-dG-VYP"/>
+                <constraint firstItem="gsS-SU-Q6i" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="65" id="W9l-KA-afv"/>
+                <constraint firstItem="hdu-Us-SQV" firstAttribute="leading" secondItem="JoP-uA-CrD" secondAttribute="trailing" constant="50" id="YjB-3F-FBD"/>
+                <constraint firstItem="fLc-To-NaO" firstAttribute="top" secondItem="hdu-Us-SQV" secondAttribute="bottom" constant="28" id="aaQ-r4-NPd"/>
+                <constraint firstItem="fLc-To-NaO" firstAttribute="leading" secondItem="sKr-zO-KHx" secondAttribute="trailing" constant="50" id="anG-y7-UIw"/>
+                <constraint firstItem="7HW-Bi-IYA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="370" id="cHr-0e-f3G"/>
+                <constraint firstItem="gsS-SU-Q6i" firstAttribute="top" secondItem="g08-nr-R2K" secondAttribute="bottom" constant="28" id="eIy-C2-cUg"/>
+                <constraint firstAttribute="trailing" secondItem="7HW-Bi-IYA" secondAttribute="trailing" constant="65" id="gob-KI-DAb"/>
+                <constraint firstItem="hdu-Us-SQV" firstAttribute="top" secondItem="fqg-Qh-KFP" secondAttribute="bottom" constant="72" id="hMU-zk-f64"/>
+                <constraint firstItem="GYD-mK-gZz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ik6-Bo-1PW"/>
+                <constraint firstAttribute="bottom" secondItem="gsS-SU-Q6i" secondAttribute="bottom" constant="16" id="mrM-na-ZV3"/>
+                <constraint firstAttribute="bottom" secondItem="fLc-To-NaO" secondAttribute="bottom" constant="16" id="pPW-et-hE4"/>
+                <constraint firstItem="JoP-uA-CrD" firstAttribute="top" secondItem="fqg-Qh-KFP" secondAttribute="bottom" constant="72" id="s9f-CO-mh4"/>
+                <constraint firstAttribute="bottom" secondItem="yeZ-6A-gzX" secondAttribute="bottom" constant="16" id="sIH-nC-ySE"/>
+                <constraint firstItem="yeZ-6A-gzX" firstAttribute="top" secondItem="7HW-Bi-IYA" secondAttribute="bottom" constant="28" id="sNQ-jV-CNw"/>
+                <constraint firstItem="GYD-mK-gZz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tJ2-qC-Gev"/>
+                <constraint firstAttribute="trailing" secondItem="yeZ-6A-gzX" secondAttribute="trailing" constant="65" id="utC-Ap-kx6"/>
+                <constraint firstItem="sKr-zO-KHx" firstAttribute="leading" secondItem="gsS-SU-Q6i" secondAttribute="trailing" constant="50" id="vIP-r5-Gxs"/>
+                <constraint firstItem="fqg-Qh-KFP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="413" id="vxG-Le-4ql"/>
+                <constraint firstItem="sKr-zO-KHx" firstAttribute="top" secondItem="JoP-uA-CrD" secondAttribute="bottom" constant="28" id="xKu-a9-pgy"/>
+                <constraint firstItem="JoP-uA-CrD" firstAttribute="leading" secondItem="g08-nr-R2K" secondAttribute="trailing" constant="50" id="yS1-Nu-718"/>
+                <constraint firstAttribute="bottom" secondItem="sKr-zO-KHx" secondAttribute="bottom" constant="16" id="zDb-fd-Hh6"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Blazer" width="137" height="136"/>
+        <image name="BlazerSelected" width="137" height="136"/>
+        <image name="MA1n Bacground" width="1023" height="763"/>
+        <image name="Ma1n Logo" width="198" height="223"/>
+        <image name="Outerwear" width="137" height="136"/>
+        <image name="OuterwearSelected" width="137" height="136"/>
+        <image name="Pants" width="136" height="136"/>
+        <image name="PantsSelected" width="136" height="136"/>
+        <image name="Polo shrts" width="136" height="137"/>
+        <image name="Polo shrtsSelected" width="136" height="137"/>
+        <image name="Shrts" width="136" height="136"/>
+        <image name="ShrtsSelected" width="136" height="136"/>
+        <image name="Sutes" width="137" height="136"/>
+        <image name="SutesSelected" width="137" height="136"/>
+        <image name="TrenchCoat" width="136" height="137"/>
+        <image name="TrenchCoatSelected" width="136" height="137"/>
+        <image name="WastCoat" width="136" height="137"/>
+        <image name="WastCoatSelected" width="136" height="137"/>
+    </resources>
+</document>

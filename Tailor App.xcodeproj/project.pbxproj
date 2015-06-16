@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58339C941B27FD590069E40B /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 58339C911B27FD590069E40B /* CoreDataHelper.m */; };
+		58339C951B27FD590069E40B /* TACoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 58339C931B27FD590069E40B /* TACoreDataHelper.m */; };
+		58339CD81B28030C0069E40B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58339CD61B28030C0069E40B /* Main.storyboard */; };
+		58339D1B1B280DC70069E40B /* DressList.m in Sources */ = {isa = PBXBuildFile; fileRef = 58339D1A1B280DC70069E40B /* DressList.m */; };
+		58339D1E1B2811300069E40B /* TACommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 58339D1D1B2811300069E40B /* TACommon.m */; };
+		58339D201B2819080069E40B /* Tailor App.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 58339D1F1B2819080069E40B /* Tailor App.sqlite */; };
+		58339D231B281CF90069E40B /* DressDivisionsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 58339D221B281CF90069E40B /* DressDivisionsList.m */; };
+		58339D271B281DAB0069E40B /* TAStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58339D251B281DAB0069E40B /* TAStyleViewController.m */; };
+		58339D281B281DAB0069E40B /* TAStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58339D261B281DAB0069E40B /* TAStyleViewController.xib */; };
+		58339D2D1B282BBF0069E40B /* TAStyleListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58339D2B1B282BBF0069E40B /* TAStyleListTableViewCell.m */; };
+		58339D2E1B282BBF0069E40B /* TAStyleListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58339D2C1B282BBF0069E40B /* TAStyleListTableViewCell.xib */; };
+		585B16841B270D9A004F58AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 585B16831B270D9A004F58AE /* main.m */; };
+		585B16871B270D9A004F58AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 585B16861B270D9A004F58AE /* AppDelegate.m */; };
+		585B168A1B270D9A004F58AE /* Tailor_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 585B16881B270D9A004F58AE /* Tailor_App.xcdatamodeld */; };
+		585B16921B270D9A004F58AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585B16911B270D9A004F58AE /* Images.xcassets */; };
+		585B16951B270D9A004F58AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585B16931B270D9A004F58AE /* LaunchScreen.xib */; };
+		585B16A11B270D9A004F58AE /* Tailor_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 585B16A01B270D9A004F58AE /* Tailor_AppTests.m */; };
+		585B16BC1B270F11004F58AE /* TAAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585B16BB1B270F11004F58AE /* TAAppController.m */; };
+		585B16BE1B271039004F58AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585B16BD1B271039004F58AE /* Foundation.framework */; };
+		585B16C01B27103F004F58AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585B16BF1B27103F004F58AE /* QuartzCore.framework */; };
+		585B16C21B271045004F58AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585B16C11B271045004F58AE /* UIKit.framework */; };
+		585B16C41B271058004F58AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585B16C31B271058004F58AE /* CoreGraphics.framework */; };
+		585B16C91B271478004F58AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585B16C81B271478004F58AE /* CoreData.framework */; };
+		589202561B2AD6EA00BF3DA7 /* TASuitHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202551B2AD6EA00BF3DA7 /* TASuitHolderView.m */; };
+		589202581B2AD6FE00BF3DA7 /* TASuitHolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202571B2AD6FE00BF3DA7 /* TASuitHolderView.xib */; };
+		5892025E1B2AE2BE00BF3DA7 /* TA3PieceSuitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892025B1B2AE2BE00BF3DA7 /* TA3PieceSuitView.m */; };
+		5892025F1B2AE2BE00BF3DA7 /* TA3PieceSuitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5892025C1B2AE2BE00BF3DA7 /* TA3PieceSuitView.xib */; };
+		589202621B2AE2DD00BF3DA7 /* TATuxedoSuitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202611B2AE2DD00BF3DA7 /* TATuxedoSuitView.m */; };
+		589202641B2AE34300BF3DA7 /* TATuxedoSuitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202631B2AE34300BF3DA7 /* TATuxedoSuitView.xib */; };
+		5892026A1B2AE60000BF3DA7 /* TAFrockCoatSuitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202691B2AE60000BF3DA7 /* TAFrockCoatSuitView.m */; };
+		5892026C1B2AE60C00BF3DA7 /* TAFrockCoatSuitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5892026B1B2AE60C00BF3DA7 /* TAFrockCoatSuitView.xib */; };
+		5892026F1B2AE72F00BF3DA7 /* TAMorningCoatSuitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892026E1B2AE72F00BF3DA7 /* TAMorningCoatSuitView.m */; };
+		589202711B2AE73A00BF3DA7 /* TAMorningCoatSuitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202701B2AE73A00BF3DA7 /* TAMorningCoatSuitView.xib */; };
+		589202741B2AE75100BF3DA7 /* TATailCoatSuitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202731B2AE75100BF3DA7 /* TATailCoatSuitView.m */; };
+		589202761B2AE76100BF3DA7 /* TATailCoatSuitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202751B2AE76100BF3DA7 /* TATailCoatSuitView.xib */; };
+		5892027D1B2AEA6300BF3DA7 /* TAShirtHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892027C1B2AEA6300BF3DA7 /* TAShirtHolderView.m */; };
+		5892027F1B2AEA7C00BF3DA7 /* TAShirtHolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5892027E1B2AEA7C00BF3DA7 /* TAShirtHolderView.xib */; };
+		589202821B2AEBA800BF3DA7 /* TALinenShirtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202811B2AEBA800BF3DA7 /* TALinenShirtView.m */; };
+		589202841B2AEBB500BF3DA7 /* TALinenShirtView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202831B2AEBB500BF3DA7 /* TALinenShirtView.xib */; };
+		589202871B2AEC3900BF3DA7 /* TAShortSleevShirtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202861B2AEC3900BF3DA7 /* TAShortSleevShirtView.m */; };
+		589202891B2AEC4400BF3DA7 /* TAShortSleevShirtView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202881B2AEC4400BF3DA7 /* TAShortSleevShirtView.xib */; };
+		5892028C1B2AECB100BF3DA7 /* TATuxedoShirtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892028B1B2AECB100BF3DA7 /* TATuxedoShirtView.m */; };
+		5892028E1B2AECBC00BF3DA7 /* TATuxedoShirtView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5892028D1B2AECBC00BF3DA7 /* TATuxedoShirtView.xib */; };
+		589202A31B2AF37700BF3DA7 /* TABlazerHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202A21B2AF37700BF3DA7 /* TABlazerHolderView.m */; };
+		589202A51B2AF38500BF3DA7 /* TABlazerHolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202A41B2AF38500BF3DA7 /* TABlazerHolderView.xib */; };
+		589202A81B2AF3C400BF3DA7 /* TACorduroyBlazerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202A71B2AF3C400BF3DA7 /* TACorduroyBlazerView.m */; };
+		589202AA1B2AF3D000BF3DA7 /* TACorduroyBlazerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202A91B2AF3D000BF3DA7 /* TACorduroyBlazerView.xib */; };
+		589202AD1B2AF40000BF3DA7 /* TACottonBlazerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202AC1B2AF40000BF3DA7 /* TACottonBlazerView.m */; };
+		589202AF1B2AF40C00BF3DA7 /* TACottonBlazerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202AE1B2AF40C00BF3DA7 /* TACottonBlazerView.xib */; };
+		589202B21B2AF42800BF3DA7 /* TALinenBlazerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202B11B2AF42800BF3DA7 /* TALinenBlazerView.m */; };
+		589202B41B2AF43700BF3DA7 /* TALinenBlazerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202B31B2AF43700BF3DA7 /* TALinenBlazerView.xib */; };
+		589202B71B2AF45B00BF3DA7 /* TATweedBlazerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202B61B2AF45B00BF3DA7 /* TATweedBlazerView.m */; };
+		589202B91B2AF46700BF3DA7 /* TATweedBlazerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202B81B2AF46700BF3DA7 /* TATweedBlazerView.xib */; };
+		589202BC1B2AF4CC00BF3DA7 /* TAVelvetBlazerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202BB1B2AF4CC00BF3DA7 /* TAVelvetBlazerView.m */; };
+		589202BE1B2AF4D600BF3DA7 /* TAVelvetBlazerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202BD1B2AF4D600BF3DA7 /* TAVelvetBlazerView.xib */; };
+		589202C11B2AF71200BF3DA7 /* TAPantHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202C01B2AF71200BF3DA7 /* TAPantHolderView.m */; };
+		589202C51B2AF83700BF3DA7 /* TAPantHolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202C41B2AF83700BF3DA7 /* TAPantHolderView.xib */; };
+		589202C81B2AF84600BF3DA7 /* TALinenPantView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202C71B2AF84600BF3DA7 /* TALinenPantView.m */; };
+		589202CA1B2AF85400BF3DA7 /* TALinenPantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202C91B2AF85400BF3DA7 /* TALinenPantView.xib */; };
+		589202CD1B2AF8B700BF3DA7 /* TAChinosPantView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589202CC1B2AF8B700BF3DA7 /* TAChinosPantView.m */; };
+		589202CF1B2AF8C200BF3DA7 /* TAChinosPantView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589202CE1B2AF8C200BF3DA7 /* TAChinosPantView.xib */; };
+		58954B971B29932B00757C5C /* TASubItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58954B951B29932A00757C5C /* TASubItemCollectionViewCell.m */; };
+		58954B981B29932B00757C5C /* TASubItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58954B961B29932A00757C5C /* TASubItemCollectionViewCell.xib */; };
+		58B1DE0F1B2EB3C500EDBEC3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DE0C1B2EB3C500EDBEC3 /* icon.png */; };
+		58B1DE101B2EB3C500EDBEC3 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DE0D1B2EB3C500EDBEC3 /* iTunesArtwork */; };
+		58B1DE191B2ECBBA00EDBEC3 /* TASuitFabricView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DE181B2ECBBA00EDBEC3 /* TASuitFabricView.m */; };
+		58B1DE1B1B2ECBC800EDBEC3 /* TASuitFabricView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DE1A1B2ECBC800EDBEC3 /* TASuitFabricView.xib */; };
+		58B1DE1F1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DE1D1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.m */; };
+		58B1DE201B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DE1E1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.xib */; };
+		58B1DE241B2EEB8800EDBEC3 /* TAPopListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DE221B2EEB8800EDBEC3 /* TAPopListTableViewController.m */; };
+		58B1DE251B2EEB8800EDBEC3 /* TAPopListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DE231B2EEB8800EDBEC3 /* TAPopListTableViewController.xib */; };
+		58B1DE291B2EEC7C00EDBEC3 /* TAPopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1DE271B2EEC7C00EDBEC3 /* TAPopTableViewCell.m */; };
+		58B1DE2A1B2EEC7C00EDBEC3 /* TAPopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B1DE281B2EEC7C00EDBEC3 /* TAPopTableViewCell.xib */; };
+		58E9D6771B27188B0062A838 /* TAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9D6751B27188B0062A838 /* TAHomeViewController.m */; };
+		58E9D6781B27188B0062A838 /* TAHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58E9D6761B27188B0062A838 /* TAHomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585B169B1B270D9A004F58AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585B16761B270D9A004F58AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585B167D1B270D9A004F58AE;
+			remoteInfo = "Tailor App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58339C901B27FD590069E40B /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		58339C911B27FD590069E40B /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		58339C921B27FD590069E40B /* TACoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACoreDataHelper.h; sourceTree = "<group>"; };
+		58339C931B27FD590069E40B /* TACoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACoreDataHelper.m; sourceTree = "<group>"; };
+		58339CD71B28030C0069E40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58339D191B280DC70069E40B /* DressList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DressList.h; sourceTree = "<group>"; };
+		58339D1A1B280DC70069E40B /* DressList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DressList.m; sourceTree = "<group>"; };
+		58339D1C1B2811300069E40B /* TACommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACommon.h; sourceTree = "<group>"; };
+		58339D1D1B2811300069E40B /* TACommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACommon.m; sourceTree = "<group>"; };
+		58339D1F1B2819080069E40B /* Tailor App.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tailor App.sqlite"; sourceTree = "<group>"; };
+		58339D211B281CF90069E40B /* DressDivisionsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DressDivisionsList.h; sourceTree = "<group>"; };
+		58339D221B281CF90069E40B /* DressDivisionsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DressDivisionsList.m; sourceTree = "<group>"; };
+		58339D241B281DAB0069E40B /* TAStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAStyleViewController.h; sourceTree = "<group>"; };
+		58339D251B281DAB0069E40B /* TAStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAStyleViewController.m; sourceTree = "<group>"; };
+		58339D261B281DAB0069E40B /* TAStyleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAStyleViewController.xib; sourceTree = "<group>"; };
+		58339D2A1B282BBF0069E40B /* TAStyleListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAStyleListTableViewCell.h; sourceTree = "<group>"; };
+		58339D2B1B282BBF0069E40B /* TAStyleListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAStyleListTableViewCell.m; sourceTree = "<group>"; };
+		58339D2C1B282BBF0069E40B /* TAStyleListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAStyleListTableViewCell.xib; sourceTree = "<group>"; };
+		585B167E1B270D9A004F58AE /* Tailor App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tailor App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585B16821B270D9A004F58AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585B16831B270D9A004F58AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		585B16851B270D9A004F58AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		585B16861B270D9A004F58AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		585B16891B270D9A004F58AE /* Tailor_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tailor_App.xcdatamodel; sourceTree = "<group>"; };
+		585B16911B270D9A004F58AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		585B16941B270D9A004F58AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		585B169A1B270D9A004F58AE /* Tailor AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tailor AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		585B169F1B270D9A004F58AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585B16A01B270D9A004F58AE /* Tailor_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tailor_AppTests.m; sourceTree = "<group>"; };
+		585B16BA1B270F11004F58AE /* TAAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAppController.h; sourceTree = "<group>"; };
+		585B16BB1B270F11004F58AE /* TAAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAppController.m; sourceTree = "<group>"; };
+		585B16BD1B271039004F58AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		585B16BF1B27103F004F58AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		585B16C11B271045004F58AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		585B16C31B271058004F58AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		585B16C61B27127C004F58AE /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		585B16C81B271478004F58AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		589202541B2AD6EA00BF3DA7 /* TASuitHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASuitHolderView.h; sourceTree = "<group>"; };
+		589202551B2AD6EA00BF3DA7 /* TASuitHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASuitHolderView.m; sourceTree = "<group>"; };
+		589202571B2AD6FE00BF3DA7 /* TASuitHolderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TASuitHolderView.xib; sourceTree = "<group>"; };
+		5892025A1B2AE2BE00BF3DA7 /* TA3PieceSuitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TA3PieceSuitView.h; sourceTree = "<group>"; };
+		5892025B1B2AE2BE00BF3DA7 /* TA3PieceSuitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TA3PieceSuitView.m; sourceTree = "<group>"; };
+		5892025C1B2AE2BE00BF3DA7 /* TA3PieceSuitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TA3PieceSuitView.xib; sourceTree = "<group>"; };
+		589202601B2AE2DD00BF3DA7 /* TATuxedoSuitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATuxedoSuitView.h; sourceTree = "<group>"; };
+		589202611B2AE2DD00BF3DA7 /* TATuxedoSuitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATuxedoSuitView.m; sourceTree = "<group>"; };
+		589202631B2AE34300BF3DA7 /* TATuxedoSuitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TATuxedoSuitView.xib; sourceTree = "<group>"; };
+		589202681B2AE60000BF3DA7 /* TAFrockCoatSuitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAFrockCoatSuitView.h; sourceTree = "<group>"; };
+		589202691B2AE60000BF3DA7 /* TAFrockCoatSuitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAFrockCoatSuitView.m; sourceTree = "<group>"; };
+		5892026B1B2AE60C00BF3DA7 /* TAFrockCoatSuitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAFrockCoatSuitView.xib; sourceTree = "<group>"; };
+		5892026D1B2AE72F00BF3DA7 /* TAMorningCoatSuitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAMorningCoatSuitView.h; sourceTree = "<group>"; };
+		5892026E1B2AE72F00BF3DA7 /* TAMorningCoatSuitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAMorningCoatSuitView.m; sourceTree = "<group>"; };
+		589202701B2AE73A00BF3DA7 /* TAMorningCoatSuitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAMorningCoatSuitView.xib; sourceTree = "<group>"; };
+		589202721B2AE75100BF3DA7 /* TATailCoatSuitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATailCoatSuitView.h; sourceTree = "<group>"; };
+		589202731B2AE75100BF3DA7 /* TATailCoatSuitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATailCoatSuitView.m; sourceTree = "<group>"; };
+		589202751B2AE76100BF3DA7 /* TATailCoatSuitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TATailCoatSuitView.xib; sourceTree = "<group>"; };
+		5892027B1B2AEA6300BF3DA7 /* TAShirtHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAShirtHolderView.h; sourceTree = "<group>"; };
+		5892027C1B2AEA6300BF3DA7 /* TAShirtHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAShirtHolderView.m; sourceTree = "<group>"; };
+		5892027E1B2AEA7C00BF3DA7 /* TAShirtHolderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAShirtHolderView.xib; sourceTree = "<group>"; };
+		589202801B2AEBA800BF3DA7 /* TALinenShirtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALinenShirtView.h; sourceTree = "<group>"; };
+		589202811B2AEBA800BF3DA7 /* TALinenShirtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALinenShirtView.m; sourceTree = "<group>"; };
+		589202831B2AEBB500BF3DA7 /* TALinenShirtView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TALinenShirtView.xib; sourceTree = "<group>"; };
+		589202851B2AEC3900BF3DA7 /* TAShortSleevShirtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAShortSleevShirtView.h; sourceTree = "<group>"; };
+		589202861B2AEC3900BF3DA7 /* TAShortSleevShirtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAShortSleevShirtView.m; sourceTree = "<group>"; };
+		589202881B2AEC4400BF3DA7 /* TAShortSleevShirtView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAShortSleevShirtView.xib; sourceTree = "<group>"; };
+		5892028A1B2AECB100BF3DA7 /* TATuxedoShirtView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATuxedoShirtView.h; sourceTree = "<group>"; };
+		5892028B1B2AECB100BF3DA7 /* TATuxedoShirtView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATuxedoShirtView.m; sourceTree = "<group>"; };
+		5892028D1B2AECBC00BF3DA7 /* TATuxedoShirtView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TATuxedoShirtView.xib; sourceTree = "<group>"; };
+		589202A11B2AF37700BF3DA7 /* TABlazerHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABlazerHolderView.h; sourceTree = "<group>"; };
+		589202A21B2AF37700BF3DA7 /* TABlazerHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABlazerHolderView.m; sourceTree = "<group>"; };
+		589202A41B2AF38500BF3DA7 /* TABlazerHolderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TABlazerHolderView.xib; sourceTree = "<group>"; };
+		589202A61B2AF3C400BF3DA7 /* TACorduroyBlazerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACorduroyBlazerView.h; sourceTree = "<group>"; };
+		589202A71B2AF3C400BF3DA7 /* TACorduroyBlazerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACorduroyBlazerView.m; sourceTree = "<group>"; };
+		589202A91B2AF3D000BF3DA7 /* TACorduroyBlazerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TACorduroyBlazerView.xib; sourceTree = "<group>"; };
+		589202AB1B2AF40000BF3DA7 /* TACottonBlazerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACottonBlazerView.h; sourceTree = "<group>"; };
+		589202AC1B2AF40000BF3DA7 /* TACottonBlazerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACottonBlazerView.m; sourceTree = "<group>"; };
+		589202AE1B2AF40C00BF3DA7 /* TACottonBlazerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TACottonBlazerView.xib; sourceTree = "<group>"; };
+		589202B01B2AF42800BF3DA7 /* TALinenBlazerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALinenBlazerView.h; sourceTree = "<group>"; };
+		589202B11B2AF42800BF3DA7 /* TALinenBlazerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALinenBlazerView.m; sourceTree = "<group>"; };
+		589202B31B2AF43700BF3DA7 /* TALinenBlazerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TALinenBlazerView.xib; sourceTree = "<group>"; };
+		589202B51B2AF45B00BF3DA7 /* TATweedBlazerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATweedBlazerView.h; sourceTree = "<group>"; };
+		589202B61B2AF45B00BF3DA7 /* TATweedBlazerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATweedBlazerView.m; sourceTree = "<group>"; };
+		589202B81B2AF46700BF3DA7 /* TATweedBlazerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TATweedBlazerView.xib; sourceTree = "<group>"; };
+		589202BA1B2AF4CC00BF3DA7 /* TAVelvetBlazerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAVelvetBlazerView.h; sourceTree = "<group>"; };
+		589202BB1B2AF4CC00BF3DA7 /* TAVelvetBlazerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAVelvetBlazerView.m; sourceTree = "<group>"; };
+		589202BD1B2AF4D600BF3DA7 /* TAVelvetBlazerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAVelvetBlazerView.xib; sourceTree = "<group>"; };
+		589202BF1B2AF71200BF3DA7 /* TAPantHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPantHolderView.h; sourceTree = "<group>"; };
+		589202C01B2AF71200BF3DA7 /* TAPantHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPantHolderView.m; sourceTree = "<group>"; };
+		589202C41B2AF83700BF3DA7 /* TAPantHolderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAPantHolderView.xib; sourceTree = "<group>"; };
+		589202C61B2AF84600BF3DA7 /* TALinenPantView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TALinenPantView.h; sourceTree = "<group>"; };
+		589202C71B2AF84600BF3DA7 /* TALinenPantView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TALinenPantView.m; sourceTree = "<group>"; };
+		589202C91B2AF85400BF3DA7 /* TALinenPantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TALinenPantView.xib; sourceTree = "<group>"; };
+		589202CB1B2AF8B700BF3DA7 /* TAChinosPantView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAChinosPantView.h; sourceTree = "<group>"; };
+		589202CC1B2AF8B700BF3DA7 /* TAChinosPantView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAChinosPantView.m; sourceTree = "<group>"; };
+		589202CE1B2AF8C200BF3DA7 /* TAChinosPantView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAChinosPantView.xib; sourceTree = "<group>"; };
+		58954B941B29932A00757C5C /* TASubItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASubItemCollectionViewCell.h; sourceTree = "<group>"; };
+		58954B951B29932A00757C5C /* TASubItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASubItemCollectionViewCell.m; sourceTree = "<group>"; };
+		58954B961B29932A00757C5C /* TASubItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TASubItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		58B1DE0C1B2EB3C500EDBEC3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		58B1DE0D1B2EB3C500EDBEC3 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		58B1DE171B2ECBBA00EDBEC3 /* TASuitFabricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TASuitFabricView.h; sourceTree = "<group>"; };
+		58B1DE181B2ECBBA00EDBEC3 /* TASuitFabricView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TASuitFabricView.m; sourceTree = "<group>"; };
+		58B1DE1A1B2ECBC800EDBEC3 /* TASuitFabricView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TASuitFabricView.xib; sourceTree = "<group>"; };
+		58B1DE1C1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAFabricCollectionViewCell.h; sourceTree = "<group>"; };
+		58B1DE1D1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAFabricCollectionViewCell.m; sourceTree = "<group>"; };
+		58B1DE1E1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAFabricCollectionViewCell.xib; sourceTree = "<group>"; };
+		58B1DE211B2EEB8800EDBEC3 /* TAPopListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPopListTableViewController.h; sourceTree = "<group>"; };
+		58B1DE221B2EEB8800EDBEC3 /* TAPopListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPopListTableViewController.m; sourceTree = "<group>"; };
+		58B1DE231B2EEB8800EDBEC3 /* TAPopListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAPopListTableViewController.xib; sourceTree = "<group>"; };
+		58B1DE261B2EEC7C00EDBEC3 /* TAPopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPopTableViewCell.h; sourceTree = "<group>"; };
+		58B1DE271B2EEC7C00EDBEC3 /* TAPopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPopTableViewCell.m; sourceTree = "<group>"; };
+		58B1DE281B2EEC7C00EDBEC3 /* TAPopTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAPopTableViewCell.xib; sourceTree = "<group>"; };
+		58E9D6741B27188B0062A838 /* TAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHomeViewController.h; sourceTree = "<group>"; };
+		58E9D6751B27188B0062A838 /* TAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHomeViewController.m; sourceTree = "<group>"; };
+		58E9D6761B27188B0062A838 /* TAHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAHomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585B167B1B270D9A004F58AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585B16C91B271478004F58AE /* CoreData.framework in Frameworks */,
+				585B16C41B271058004F58AE /* CoreGraphics.framework in Frameworks */,
+				585B16C21B271045004F58AE /* UIKit.framework in Frameworks */,
+				585B16C01B27103F004F58AE /* QuartzCore.framework in Frameworks */,
+				585B16BE1B271039004F58AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B16971B270D9A004F58AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58339C8F1B27FD590069E40B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				58339C901B27FD590069E40B /* CoreDataHelper.h */,
+				58339C911B27FD590069E40B /* CoreDataHelper.m */,
+				58339C921B27FD590069E40B /* TACoreDataHelper.h */,
+				58339C931B27FD590069E40B /* TACoreDataHelper.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		58339CD21B2801170069E40B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				58339D191B280DC70069E40B /* DressList.h */,
+				58339D1A1B280DC70069E40B /* DressList.m */,
+				58339D211B281CF90069E40B /* DressDivisionsList.h */,
+				58339D221B281CF90069E40B /* DressDivisionsList.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		58339D291B282B9A0069E40B /* DetailsCell */ = {
+			isa = PBXGroup;
+			children = (
+				58339D2A1B282BBF0069E40B /* TAStyleListTableViewCell.h */,
+				58339D2B1B282BBF0069E40B /* TAStyleListTableViewCell.m */,
+				58339D2C1B282BBF0069E40B /* TAStyleListTableViewCell.xib */,
+				58954B941B29932A00757C5C /* TASubItemCollectionViewCell.h */,
+				58954B951B29932A00757C5C /* TASubItemCollectionViewCell.m */,
+				58954B961B29932A00757C5C /* TASubItemCollectionViewCell.xib */,
+			);
+			path = DetailsCell;
+			sourceTree = "<group>";
+		};
+		585B16751B270D9A004F58AE = {
+			isa = PBXGroup;
+			children = (
+				585B16C81B271478004F58AE /* CoreData.framework */,
+				585B16C71B271454004F58AE /* Framework */,
+				585B16801B270D9A004F58AE /* Tailor App */,
+				585B169D1B270D9A004F58AE /* Tailor AppTests */,
+				585B167F1B270D9A004F58AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		585B167F1B270D9A004F58AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585B167E1B270D9A004F58AE /* Tailor App.app */,
+				585B169A1B270D9A004F58AE /* Tailor AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585B16801B270D9A004F58AE /* Tailor App */ = {
+			isa = PBXGroup;
+			children = (
+				58339D1F1B2819080069E40B /* Tailor App.sqlite */,
+				58339CD61B28030C0069E40B /* Main.storyboard */,
+				585B16AB1B270DF1004F58AE /* Classes */,
+				585B16851B270D9A004F58AE /* AppDelegate.h */,
+				585B16861B270D9A004F58AE /* AppDelegate.m */,
+				585B16911B270D9A004F58AE /* Images.xcassets */,
+				585B16931B270D9A004F58AE /* LaunchScreen.xib */,
+				585B16881B270D9A004F58AE /* Tailor_App.xcdatamodeld */,
+				585B16811B270D9A004F58AE /* Supporting Files */,
+			);
+			path = "Tailor App";
+			sourceTree = "<group>";
+		};
+		585B16811B270D9A004F58AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58B1DE0A1B2EB3C400EDBEC3 /* icons */,
+				585B16821B270D9A004F58AE /* Info.plist */,
+				585B16831B270D9A004F58AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		585B169D1B270D9A004F58AE /* Tailor AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				585B16A01B270D9A004F58AE /* Tailor_AppTests.m */,
+				585B169E1B270D9A004F58AE /* Supporting Files */,
+			);
+			path = "Tailor AppTests";
+			sourceTree = "<group>";
+		};
+		585B169E1B270D9A004F58AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				585B169F1B270D9A004F58AE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		585B16AB1B270DF1004F58AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				58339CD21B2801170069E40B /* Entities */,
+				58339C8F1B27FD590069E40B /* CoreData */,
+				585B16C51B271270004F58AE /* Common */,
+				585B16AC1B270DF1004F58AE /* Controller */,
+				585B16AD1B270DF1004F58AE /* Details */,
+				585B16AE1B270DF1004F58AE /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		585B16AC1B270DF1004F58AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				585B16BA1B270F11004F58AE /* TAAppController.h */,
+				585B16BB1B270F11004F58AE /* TAAppController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		585B16AD1B270DF1004F58AE /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				5892028F1B2AF35100BF3DA7 /* Blazers */,
+				589202951B2AF35100BF3DA7 /* Outer */,
+				589202971B2AF35100BF3DA7 /* Pants */,
+				5892029A1B2AF35100BF3DA7 /* Polo Shirts */,
+				5892029C1B2AF35100BF3DA7 /* Trench */,
+				5892029E1B2AF35100BF3DA7 /* Waistcoats */,
+				589202771B2AE9D700BF3DA7 /* Shirts */,
+				5892024E1B2AD35300BF3DA7 /* Suits */,
+				58339D291B282B9A0069E40B /* DetailsCell */,
+				58339D241B281DAB0069E40B /* TAStyleViewController.h */,
+				58339D251B281DAB0069E40B /* TAStyleViewController.m */,
+				58339D261B281DAB0069E40B /* TAStyleViewController.xib */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		585B16AE1B270DF1004F58AE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				58E9D6741B27188B0062A838 /* TAHomeViewController.h */,
+				58E9D6751B27188B0062A838 /* TAHomeViewController.m */,
+				58E9D6761B27188B0062A838 /* TAHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		585B16C51B271270004F58AE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				585B16C61B27127C004F58AE /* Constants.h */,
+				58339D1C1B2811300069E40B /* TACommon.h */,
+				58339D1D1B2811300069E40B /* TACommon.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		585B16C71B271454004F58AE /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				585B16BD1B271039004F58AE /* Foundation.framework */,
+				585B16BF1B27103F004F58AE /* QuartzCore.framework */,
+				585B16C11B271045004F58AE /* UIKit.framework */,
+				585B16C31B271058004F58AE /* CoreGraphics.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		5892024E1B2AD35300BF3DA7 /* Suits */ = {
+			isa = PBXGroup;
+			children = (
+				58B1DE161B2ECB9D00EDBEC3 /* FabricView */,
+				589202651B2AE4BA00BF3DA7 /* Frock coat */,
+				589202661B2AE4BA00BF3DA7 /* Morning Coat */,
+				589202671B2AE4BA00BF3DA7 /* Tail Coat */,
+				589202591B2AE2BE00BF3DA7 /* 3Piece */,
+				5892025D1B2AE2BE00BF3DA7 /* Tuxedo */,
+				589202541B2AD6EA00BF3DA7 /* TASuitHolderView.h */,
+				589202551B2AD6EA00BF3DA7 /* TASuitHolderView.m */,
+				589202571B2AD6FE00BF3DA7 /* TASuitHolderView.xib */,
+				58B1DE211B2EEB8800EDBEC3 /* TAPopListTableViewController.h */,
+				58B1DE221B2EEB8800EDBEC3 /* TAPopListTableViewController.m */,
+				58B1DE231B2EEB8800EDBEC3 /* TAPopListTableViewController.xib */,
+				58B1DE261B2EEC7C00EDBEC3 /* TAPopTableViewCell.h */,
+				58B1DE271B2EEC7C00EDBEC3 /* TAPopTableViewCell.m */,
+				58B1DE281B2EEC7C00EDBEC3 /* TAPopTableViewCell.xib */,
+			);
+			path = Suits;
+			sourceTree = "<group>";
+		};
+		589202591B2AE2BE00BF3DA7 /* 3Piece */ = {
+			isa = PBXGroup;
+			children = (
+				5892025A1B2AE2BE00BF3DA7 /* TA3PieceSuitView.h */,
+				5892025B1B2AE2BE00BF3DA7 /* TA3PieceSuitView.m */,
+				5892025C1B2AE2BE00BF3DA7 /* TA3PieceSuitView.xib */,
+			);
+			path = 3Piece;
+			sourceTree = "<group>";
+		};
+		5892025D1B2AE2BE00BF3DA7 /* Tuxedo */ = {
+			isa = PBXGroup;
+			children = (
+				589202601B2AE2DD00BF3DA7 /* TATuxedoSuitView.h */,
+				589202611B2AE2DD00BF3DA7 /* TATuxedoSuitView.m */,
+				589202631B2AE34300BF3DA7 /* TATuxedoSuitView.xib */,
+			);
+			path = Tuxedo;
+			sourceTree = "<group>";
+		};
+		589202651B2AE4BA00BF3DA7 /* Frock coat */ = {
+			isa = PBXGroup;
+			children = (
+				589202681B2AE60000BF3DA7 /* TAFrockCoatSuitView.h */,
+				589202691B2AE60000BF3DA7 /* TAFrockCoatSuitView.m */,
+				5892026B1B2AE60C00BF3DA7 /* TAFrockCoatSuitView.xib */,
+			);
+			path = "Frock coat";
+			sourceTree = "<group>";
+		};
+		589202661B2AE4BA00BF3DA7 /* Morning Coat */ = {
+			isa = PBXGroup;
+			children = (
+				5892026D1B2AE72F00BF3DA7 /* TAMorningCoatSuitView.h */,
+				5892026E1B2AE72F00BF3DA7 /* TAMorningCoatSuitView.m */,
+				589202701B2AE73A00BF3DA7 /* TAMorningCoatSuitView.xib */,
+			);
+			path = "Morning Coat";
+			sourceTree = "<group>";
+		};
+		589202671B2AE4BA00BF3DA7 /* Tail Coat */ = {
+			isa = PBXGroup;
+			children = (
+				589202721B2AE75100BF3DA7 /* TATailCoatSuitView.h */,
+				589202731B2AE75100BF3DA7 /* TATailCoatSuitView.m */,
+				589202751B2AE76100BF3DA7 /* TATailCoatSuitView.xib */,
+			);
+			path = "Tail Coat";
+			sourceTree = "<group>";
+		};
+		589202771B2AE9D700BF3DA7 /* Shirts */ = {
+			isa = PBXGroup;
+			children = (
+				589202781B2AE9D700BF3DA7 /* Linen */,
+				589202791B2AE9D700BF3DA7 /* Short Sleeve */,
+				5892027A1B2AE9D700BF3DA7 /* Tuxedo */,
+				5892027B1B2AEA6300BF3DA7 /* TAShirtHolderView.h */,
+				5892027C1B2AEA6300BF3DA7 /* TAShirtHolderView.m */,
+				5892027E1B2AEA7C00BF3DA7 /* TAShirtHolderView.xib */,
+			);
+			path = Shirts;
+			sourceTree = "<group>";
+		};
+		589202781B2AE9D700BF3DA7 /* Linen */ = {
+			isa = PBXGroup;
+			children = (
+				589202801B2AEBA800BF3DA7 /* TALinenShirtView.h */,
+				589202811B2AEBA800BF3DA7 /* TALinenShirtView.m */,
+				589202831B2AEBB500BF3DA7 /* TALinenShirtView.xib */,
+			);
+			path = Linen;
+			sourceTree = "<group>";
+		};
+		589202791B2AE9D700BF3DA7 /* Short Sleeve */ = {
+			isa = PBXGroup;
+			children = (
+				589202851B2AEC3900BF3DA7 /* TAShortSleevShirtView.h */,
+				589202861B2AEC3900BF3DA7 /* TAShortSleevShirtView.m */,
+				589202881B2AEC4400BF3DA7 /* TAShortSleevShirtView.xib */,
+			);
+			path = "Short Sleeve";
+			sourceTree = "<group>";
+		};
+		5892027A1B2AE9D700BF3DA7 /* Tuxedo */ = {
+			isa = PBXGroup;
+			children = (
+				5892028A1B2AECB100BF3DA7 /* TATuxedoShirtView.h */,
+				5892028B1B2AECB100BF3DA7 /* TATuxedoShirtView.m */,
+				5892028D1B2AECBC00BF3DA7 /* TATuxedoShirtView.xib */,
+			);
+			path = Tuxedo;
+			sourceTree = "<group>";
+		};
+		5892028F1B2AF35100BF3DA7 /* Blazers */ = {
+			isa = PBXGroup;
+			children = (
+				589202901B2AF35100BF3DA7 /* Corduroy */,
+				589202911B2AF35100BF3DA7 /* Cotton */,
+				589202921B2AF35100BF3DA7 /* Linen */,
+				589202931B2AF35100BF3DA7 /* Tweed */,
+				589202941B2AF35100BF3DA7 /* Velvet */,
+				589202A11B2AF37700BF3DA7 /* TABlazerHolderView.h */,
+				589202A21B2AF37700BF3DA7 /* TABlazerHolderView.m */,
+				589202A41B2AF38500BF3DA7 /* TABlazerHolderView.xib */,
+			);
+			path = Blazers;
+			sourceTree = "<group>";
+		};
+		589202901B2AF35100BF3DA7 /* Corduroy */ = {
+			isa = PBXGroup;
+			children = (
+				589202A61B2AF3C400BF3DA7 /* TACorduroyBlazerView.h */,
+				589202A71B2AF3C400BF3DA7 /* TACorduroyBlazerView.m */,
+				589202A91B2AF3D000BF3DA7 /* TACorduroyBlazerView.xib */,
+			);
+			path = Corduroy;
+			sourceTree = "<group>";
+		};
+		589202911B2AF35100BF3DA7 /* Cotton */ = {
+			isa = PBXGroup;
+			children = (
+				589202AB1B2AF40000BF3DA7 /* TACottonBlazerView.h */,
+				589202AC1B2AF40000BF3DA7 /* TACottonBlazerView.m */,
+				589202AE1B2AF40C00BF3DA7 /* TACottonBlazerView.xib */,
+			);
+			path = Cotton;
+			sourceTree = "<group>";
+		};
+		589202921B2AF35100BF3DA7 /* Linen */ = {
+			isa = PBXGroup;
+			children = (
+				589202B01B2AF42800BF3DA7 /* TALinenBlazerView.h */,
+				589202B11B2AF42800BF3DA7 /* TALinenBlazerView.m */,
+				589202B31B2AF43700BF3DA7 /* TALinenBlazerView.xib */,
+			);
+			path = Linen;
+			sourceTree = "<group>";
+		};
+		589202931B2AF35100BF3DA7 /* Tweed */ = {
+			isa = PBXGroup;
+			children = (
+				589202B51B2AF45B00BF3DA7 /* TATweedBlazerView.h */,
+				589202B61B2AF45B00BF3DA7 /* TATweedBlazerView.m */,
+				589202B81B2AF46700BF3DA7 /* TATweedBlazerView.xib */,
+			);
+			path = Tweed;
+			sourceTree = "<group>";
+		};
+		589202941B2AF35100BF3DA7 /* Velvet */ = {
+			isa = PBXGroup;
+			children = (
+				589202BA1B2AF4CC00BF3DA7 /* TAVelvetBlazerView.h */,
+				589202BB1B2AF4CC00BF3DA7 /* TAVelvetBlazerView.m */,
+				589202BD1B2AF4D600BF3DA7 /* TAVelvetBlazerView.xib */,
+			);
+			path = Velvet;
+			sourceTree = "<group>";
+		};
+		589202951B2AF35100BF3DA7 /* Outer */ = {
+			isa = PBXGroup;
+			children = (
+				589202961B2AF35100BF3DA7 /* custom */,
+			);
+			path = Outer;
+			sourceTree = "<group>";
+		};
+		589202961B2AF35100BF3DA7 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		589202971B2AF35100BF3DA7 /* Pants */ = {
+			isa = PBXGroup;
+			children = (
+				589202981B2AF35100BF3DA7 /* Chinos */,
+				589202991B2AF35100BF3DA7 /* Linen */,
+				589202BF1B2AF71200BF3DA7 /* TAPantHolderView.h */,
+				589202C01B2AF71200BF3DA7 /* TAPantHolderView.m */,
+				589202C41B2AF83700BF3DA7 /* TAPantHolderView.xib */,
+			);
+			path = Pants;
+			sourceTree = "<group>";
+		};
+		589202981B2AF35100BF3DA7 /* Chinos */ = {
+			isa = PBXGroup;
+			children = (
+				589202CB1B2AF8B700BF3DA7 /* TAChinosPantView.h */,
+				589202CC1B2AF8B700BF3DA7 /* TAChinosPantView.m */,
+				589202CE1B2AF8C200BF3DA7 /* TAChinosPantView.xib */,
+			);
+			path = Chinos;
+			sourceTree = "<group>";
+		};
+		589202991B2AF35100BF3DA7 /* Linen */ = {
+			isa = PBXGroup;
+			children = (
+				589202C61B2AF84600BF3DA7 /* TALinenPantView.h */,
+				589202C71B2AF84600BF3DA7 /* TALinenPantView.m */,
+				589202C91B2AF85400BF3DA7 /* TALinenPantView.xib */,
+			);
+			path = Linen;
+			sourceTree = "<group>";
+		};
+		5892029A1B2AF35100BF3DA7 /* Polo Shirts */ = {
+			isa = PBXGroup;
+			children = (
+				5892029B1B2AF35100BF3DA7 /* Custom */,
+			);
+			path = "Polo Shirts";
+			sourceTree = "<group>";
+		};
+		5892029B1B2AF35100BF3DA7 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5892029C1B2AF35100BF3DA7 /* Trench */ = {
+			isa = PBXGroup;
+			children = (
+				5892029D1B2AF35100BF3DA7 /* Custom */,
+			);
+			path = Trench;
+			sourceTree = "<group>";
+		};
+		5892029D1B2AF35100BF3DA7 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		5892029E1B2AF35100BF3DA7 /* Waistcoats */ = {
+			isa = PBXGroup;
+			children = (
+				5892029F1B2AF35100BF3DA7 /* Suit Vest */,
+				589202A01B2AF35100BF3DA7 /* Wedding */,
+			);
+			path = Waistcoats;
+			sourceTree = "<group>";
+		};
+		5892029F1B2AF35100BF3DA7 /* Suit Vest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Suit Vest";
+			sourceTree = "<group>";
+		};
+		589202A01B2AF35100BF3DA7 /* Wedding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wedding;
+			sourceTree = "<group>";
+		};
+		58B1DE0A1B2EB3C400EDBEC3 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				58B1DE0C1B2EB3C500EDBEC3 /* icon.png */,
+				58B1DE0D1B2EB3C500EDBEC3 /* iTunesArtwork */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		58B1DE161B2ECB9D00EDBEC3 /* FabricView */ = {
+			isa = PBXGroup;
+			children = (
+				58B1DE1C1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.h */,
+				58B1DE1D1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.m */,
+				58B1DE1E1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.xib */,
+				58B1DE171B2ECBBA00EDBEC3 /* TASuitFabricView.h */,
+				58B1DE181B2ECBBA00EDBEC3 /* TASuitFabricView.m */,
+				58B1DE1A1B2ECBC800EDBEC3 /* TASuitFabricView.xib */,
+			);
+			path = FabricView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585B167D1B270D9A004F58AE /* Tailor App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585B16A41B270D9A004F58AE /* Build configuration list for PBXNativeTarget "Tailor App" */;
+			buildPhases = (
+				585B167A1B270D9A004F58AE /* Sources */,
+				585B167B1B270D9A004F58AE /* Frameworks */,
+				585B167C1B270D9A004F58AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tailor App";
+			productName = "Tailor App";
+			productReference = 585B167E1B270D9A004F58AE /* Tailor App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585B16991B270D9A004F58AE /* Tailor AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585B16A71B270D9A004F58AE /* Build configuration list for PBXNativeTarget "Tailor AppTests" */;
+			buildPhases = (
+				585B16961B270D9A004F58AE /* Sources */,
+				585B16971B270D9A004F58AE /* Frameworks */,
+				585B16981B270D9A004F58AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585B169C1B270D9A004F58AE /* PBXTargetDependency */,
+			);
+			name = "Tailor AppTests";
+			productName = "Tailor AppTests";
+			productReference = 585B169A1B270D9A004F58AE /* Tailor AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585B16761B270D9A004F58AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = csg;
+				TargetAttributes = {
+					585B167D1B270D9A004F58AE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					585B16991B270D9A004F58AE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 585B167D1B270D9A004F58AE;
+					};
+				};
+			};
+			buildConfigurationList = 585B16791B270D9A004F58AE /* Build configuration list for PBXProject "Tailor App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585B16751B270D9A004F58AE;
+			productRefGroup = 585B167F1B270D9A004F58AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585B167D1B270D9A004F58AE /* Tailor App */,
+				585B16991B270D9A004F58AE /* Tailor AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585B167C1B270D9A004F58AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589202B91B2AF46700BF3DA7 /* TATweedBlazerView.xib in Resources */,
+				589202581B2AD6FE00BF3DA7 /* TASuitHolderView.xib in Resources */,
+				5892028E1B2AECBC00BF3DA7 /* TATuxedoShirtView.xib in Resources */,
+				585B16951B270D9A004F58AE /* LaunchScreen.xib in Resources */,
+				589202AF1B2AF40C00BF3DA7 /* TACottonBlazerView.xib in Resources */,
+				589202BE1B2AF4D600BF3DA7 /* TAVelvetBlazerView.xib in Resources */,
+				589202CF1B2AF8C200BF3DA7 /* TAChinosPantView.xib in Resources */,
+				58E9D6781B27188B0062A838 /* TAHomeViewController.xib in Resources */,
+				589202C51B2AF83700BF3DA7 /* TAPantHolderView.xib in Resources */,
+				5892025F1B2AE2BE00BF3DA7 /* TA3PieceSuitView.xib in Resources */,
+				58339D201B2819080069E40B /* Tailor App.sqlite in Resources */,
+				589202841B2AEBB500BF3DA7 /* TALinenShirtView.xib in Resources */,
+				5892026C1B2AE60C00BF3DA7 /* TAFrockCoatSuitView.xib in Resources */,
+				58B1DE101B2EB3C500EDBEC3 /* iTunesArtwork in Resources */,
+				589202641B2AE34300BF3DA7 /* TATuxedoSuitView.xib in Resources */,
+				58339D2E1B282BBF0069E40B /* TAStyleListTableViewCell.xib in Resources */,
+				58B1DE251B2EEB8800EDBEC3 /* TAPopListTableViewController.xib in Resources */,
+				589202A51B2AF38500BF3DA7 /* TABlazerHolderView.xib in Resources */,
+				589202B41B2AF43700BF3DA7 /* TALinenBlazerView.xib in Resources */,
+				58B1DE1B1B2ECBC800EDBEC3 /* TASuitFabricView.xib in Resources */,
+				5892027F1B2AEA7C00BF3DA7 /* TAShirtHolderView.xib in Resources */,
+				589202CA1B2AF85400BF3DA7 /* TALinenPantView.xib in Resources */,
+				589202711B2AE73A00BF3DA7 /* TAMorningCoatSuitView.xib in Resources */,
+				58B1DE201B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.xib in Resources */,
+				589202761B2AE76100BF3DA7 /* TATailCoatSuitView.xib in Resources */,
+				58339CD81B28030C0069E40B /* Main.storyboard in Resources */,
+				58954B981B29932B00757C5C /* TASubItemCollectionViewCell.xib in Resources */,
+				589202AA1B2AF3D000BF3DA7 /* TACorduroyBlazerView.xib in Resources */,
+				585B16921B270D9A004F58AE /* Images.xcassets in Resources */,
+				589202891B2AEC4400BF3DA7 /* TAShortSleevShirtView.xib in Resources */,
+				58339D281B281DAB0069E40B /* TAStyleViewController.xib in Resources */,
+				58B1DE0F1B2EB3C500EDBEC3 /* icon.png in Resources */,
+				58B1DE2A1B2EEC7C00EDBEC3 /* TAPopTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B16981B270D9A004F58AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585B167A1B270D9A004F58AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589202C81B2AF84600BF3DA7 /* TALinenPantView.m in Sources */,
+				58339D2D1B282BBF0069E40B /* TAStyleListTableViewCell.m in Sources */,
+				589202871B2AEC3900BF3DA7 /* TAShortSleevShirtView.m in Sources */,
+				589202AD1B2AF40000BF3DA7 /* TACottonBlazerView.m in Sources */,
+				589202741B2AE75100BF3DA7 /* TATailCoatSuitView.m in Sources */,
+				58339D231B281CF90069E40B /* DressDivisionsList.m in Sources */,
+				5892025E1B2AE2BE00BF3DA7 /* TA3PieceSuitView.m in Sources */,
+				58B1DE191B2ECBBA00EDBEC3 /* TASuitFabricView.m in Sources */,
+				589202A81B2AF3C400BF3DA7 /* TACorduroyBlazerView.m in Sources */,
+				58339C951B27FD590069E40B /* TACoreDataHelper.m in Sources */,
+				58339D271B281DAB0069E40B /* TAStyleViewController.m in Sources */,
+				585B16871B270D9A004F58AE /* AppDelegate.m in Sources */,
+				589202B21B2AF42800BF3DA7 /* TALinenBlazerView.m in Sources */,
+				58339D1B1B280DC70069E40B /* DressList.m in Sources */,
+				585B168A1B270D9A004F58AE /* Tailor_App.xcdatamodeld in Sources */,
+				589202561B2AD6EA00BF3DA7 /* TASuitHolderView.m in Sources */,
+				5892026A1B2AE60000BF3DA7 /* TAFrockCoatSuitView.m in Sources */,
+				589202B71B2AF45B00BF3DA7 /* TATweedBlazerView.m in Sources */,
+				589202C11B2AF71200BF3DA7 /* TAPantHolderView.m in Sources */,
+				589202821B2AEBA800BF3DA7 /* TALinenShirtView.m in Sources */,
+				58B1DE241B2EEB8800EDBEC3 /* TAPopListTableViewController.m in Sources */,
+				589202A31B2AF37700BF3DA7 /* TABlazerHolderView.m in Sources */,
+				589202CD1B2AF8B700BF3DA7 /* TAChinosPantView.m in Sources */,
+				585B16BC1B270F11004F58AE /* TAAppController.m in Sources */,
+				5892028C1B2AECB100BF3DA7 /* TATuxedoShirtView.m in Sources */,
+				58B1DE1F1B2ECEF300EDBEC3 /* TAFabricCollectionViewCell.m in Sources */,
+				58B1DE291B2EEC7C00EDBEC3 /* TAPopTableViewCell.m in Sources */,
+				58E9D6771B27188B0062A838 /* TAHomeViewController.m in Sources */,
+				589202621B2AE2DD00BF3DA7 /* TATuxedoSuitView.m in Sources */,
+				5892027D1B2AEA6300BF3DA7 /* TAShirtHolderView.m in Sources */,
+				58339C941B27FD590069E40B /* CoreDataHelper.m in Sources */,
+				5892026F1B2AE72F00BF3DA7 /* TAMorningCoatSuitView.m in Sources */,
+				589202BC1B2AF4CC00BF3DA7 /* TAVelvetBlazerView.m in Sources */,
+				585B16841B270D9A004F58AE /* main.m in Sources */,
+				58954B971B29932B00757C5C /* TASubItemCollectionViewCell.m in Sources */,
+				58339D1E1B2811300069E40B /* TACommon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585B16961B270D9A004F58AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585B16A11B270D9A004F58AE /* Tailor_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585B169C1B270D9A004F58AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585B167D1B270D9A004F58AE /* Tailor App */;
+			targetProxy = 585B169B1B270D9A004F58AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58339CD61B28030C0069E40B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58339CD71B28030C0069E40B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		585B16931B270D9A004F58AE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585B16941B270D9A004F58AE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		585B16A21B270D9A004F58AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Richard Cowley (R8PQ39G99Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard Cowley (R8PQ39G99Y)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6b339233-e622-45ba-b9aa-a84bcacfe1a0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		585B16A31B270D9A004F58AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Richard Cowley (7Y7C6K6PT5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Richard Cowley (7Y7C6K6PT5)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "998ce9db-5f1a-49d2-a630-604427b8b810";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585B16A51B270D9A004F58AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Tailor App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		585B16A61B270D9A004F58AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Tailor App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		585B16A81B270D9A004F58AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tailor AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tailor App.app/Tailor App";
+			};
+			name = Debug;
+		};
+		585B16A91B270D9A004F58AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tailor AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tailor App.app/Tailor App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585B16791B270D9A004F58AE /* Build configuration list for PBXProject "Tailor App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B16A21B270D9A004F58AE /* Debug */,
+				585B16A31B270D9A004F58AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585B16A41B270D9A004F58AE /* Build configuration list for PBXNativeTarget "Tailor App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B16A51B270D9A004F58AE /* Debug */,
+				585B16A61B270D9A004F58AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585B16A71B270D9A004F58AE /* Build configuration list for PBXNativeTarget "Tailor AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585B16A81B270D9A004F58AE /* Debug */,
+				585B16A91B270D9A004F58AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		585B16881B270D9A004F58AE /* Tailor_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				585B16891B270D9A004F58AE /* Tailor_App.xcdatamodel */,
+			);
+			currentVersion = 585B16891B270D9A004F58AE /* Tailor_App.xcdatamodel */;
+			path = Tailor_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 585B16761B270D9A004F58AE /* Project object */;
+}
